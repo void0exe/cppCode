@@ -48,7 +48,7 @@ Node* tree_struct(){ //IMP : for n inputs there should be n+1 nullptr(which here
     return root;
 }
 
-bool rootTonode(Node* root, vector<int> ans, int node){
+bool rootTonode(Node* root, vector<int> &ans, int node){
     if(!root){
         return false;
     }
